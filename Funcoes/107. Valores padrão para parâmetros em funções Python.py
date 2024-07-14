@@ -9,14 +9,13 @@ enviado para o parâmetro, o valor padrão será usado.
 def soma(x, y, z=None):
     if z is not None:
         print(f"{x=} {y=} {z=}", "Total", x+y+z)
-        print(f"Parâmetro Padrão \n")
+       
         
     else:
         print(f"{x=} {y=}", "Total", x+y)
-        print("Parâmetro enviado")
+       
         
-        
-
-
 soma(1,2,3)
 soma(1,2)
+soma(120, 90)
+soma(x=10, z=30, y=2)
